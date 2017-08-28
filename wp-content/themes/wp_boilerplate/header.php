@@ -13,11 +13,12 @@
 <div id="tooplate_wrapper">
     
     <nav id="tooplate_menu">
-               <?php wp_nav_menu(
+
+
+    <?php wp_nav_menu(
         array(
-            'container' => false,
-            'items_wrap' => '<ul id=menu-top>%3$s</ul>',
-            'theme_location' => 'Menu-header'
+            'theme_location' => 'menu',
+            'container_class' => 'menu_principal'
         )); ?>      
     </nav> <!-- end of tooplate_menu -->
     

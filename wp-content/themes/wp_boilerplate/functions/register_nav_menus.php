@@ -1,6 +1,6 @@
 <?php
 register_nav_menus( array(
-'menu' => 'Menu-header',
+'menu' => __('Menu principal')
 ));
 
 ?>
